@@ -13,6 +13,12 @@ const routes: Routes = [
   },
   {
     path: 'produtos/cadastrar', component: CadastrarProdutosComponent
+  },
+  {
+    path: 'produtos/atualizar', component: CadastrarProdutosComponent
+  },
+  {
+    path: 'produtos/deletar/:id', component: CadastrarProdutosComponent
   }
 
 ];
